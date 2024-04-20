@@ -14,10 +14,10 @@ public class Compra {
             System.out.println("qual a sua idade?");
             Integer i = idade.nextInt();
              if (i>=18){
-                 System.out.println("Compra efetuada");
+                 System.out.println("Compra efetuada com sucesso");
              }else
-                 System.out.println("Você é menor de idade");
+                 System.out.println("Compra negada");
         }else
-            System.out.println("Compra Efetuada");
+            System.out.println("Compra Efetuada com sucesso");
     }
 }
