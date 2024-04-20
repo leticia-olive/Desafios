@@ -5,9 +5,9 @@ public class Compra {
         Scanner produto = new Scanner(System.in);
         Scanner idade = new Scanner(System.in);
         System.out.println("O que deseja comprar? \n" +
-                "1.Cerveja" +
-                "2.Refrigerante" +
-                "3.Água");
+                "1.Cerveja\n" +
+                "2.Refrigerante\n" +
+                "3.Água\n");
         Integer opcao = produto.nextInt();
 
         if(opcao == 1){
