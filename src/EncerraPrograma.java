@@ -1,4 +1,4 @@
-import javax.swing.*;
+import javax.swing.JOptionPane;
 import java.util.Scanner;
 
 public class EncerraPrograma {
@@ -7,7 +7,7 @@ public class EncerraPrograma {
 
         do{
             n = Integer.parseInt(JOptionPane.showInputDialog(
-                    null, "Informe um numero (Valor 0 interrompe)"));
+                    null, "Informe um numero (Valor 10 interrompe)"));
         }while (n!=10);
     }
 }
