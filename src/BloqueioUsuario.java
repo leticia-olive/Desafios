@@ -12,8 +12,6 @@ public class BloqueioUsuario {
         String usuario,senha;
         Scanner ler=new Scanner(System.in);
         int tentativa =0;
-        boolean acertou = false;
-
 
             System.out.println("Insira seu login");
             usuario=ler.next();
